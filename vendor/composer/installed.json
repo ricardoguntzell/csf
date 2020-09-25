@@ -1,0 +1,220 @@
+[
+    {
+        "name": "components/jquery",
+        "version": "3.5.1",
+        "version_normalized": "3.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+            "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+            "shasum": ""
+        },
+        "time": "2020-05-05T13:21:02+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "jquery.js"
+                ],
+                "files": [
+                    "jquery.min.js",
+                    "jquery.min.map",
+                    "jquery.slim.js",
+                    "jquery.slim.min.js",
+                    "jquery.slim.min.map"
+                ]
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "JS Foundation and other contributors"
+            }
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    },
+    {
+        "name": "datatables.net/datatables.net",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DataTables/Dist-DataTables.git",
+            "reference": "7634c901bb5d85024b3711fce248427947f9343b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DataTables/Dist-DataTables/zipball/7634c901bb5d85024b3711fce248427947f9343b",
+            "reference": "7634c901bb5d85024b3711fce248427947f9343b",
+            "shasum": ""
+        },
+        "require": {
+            "components/jquery": "3.5.1"
+        },
+        "time": "2020-08-26T11:33:27+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "SpryMedia",
+                "homepage": "https://datatables.net"
+            }
+        ],
+        "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
+        "homepage": "http://www.datatables.net/",
+        "keywords": [
+            "datatables",
+            "jquery",
+            "table"
+        ]
+    },
+    {
+        "name": "datatables.net/datatables.net-responsive",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DataTables/Dist-DataTables-Responsive.git",
+            "reference": "71719a780f2026931cba11b8d195193f2aad12c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DataTables/Dist-DataTables-Responsive/zipball/71719a780f2026931cba11b8d195193f2aad12c1",
+            "reference": "71719a780f2026931cba11b8d195193f2aad12c1",
+            "shasum": ""
+        },
+        "require": {
+            "components/jquery": ">=3.5.1",
+            "datatables.net/datatables.net": ">=1.10.15"
+        },
+        "time": "2020-08-26T11:21:32+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "SpryMedia",
+                "homepage": "https://datatables.net"
+            }
+        ],
+        "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the Responsive extension for DataTables.",
+        "homepage": "http://www.datatables.net/",
+        "keywords": [
+            "datatables",
+            "jquery",
+            "responsive",
+            "table"
+        ]
+    },
+    {
+        "name": "snapappointments/bootstrap-select",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/snapappointments/bootstrap-select.git",
+            "reference": "ec243882c07ea16bef828a908c753366636dd634"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/snapappointments/bootstrap-select/zipball/ec243882c07ea16bef828a908c753366636dd634",
+            "reference": "ec243882c07ea16bef828a908c753366636dd634",
+            "shasum": ""
+        },
+        "suggest": {
+            "components/jquery": ">=1.8",
+            "twbs/bootstrap": "~3.0.0"
+        },
+        "time": "2018-10-16T20:09:56+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Silvio Moreto",
+                "homepage": "https://github.com/silviomoreto"
+            }
+        ],
+        "description": "Bootstrap-select is a jQuery plugin that utilizes Bootstrap's dropdown.js to style and bring additional functionality to standard select elements.",
+        "homepage": "https://silviomoreto.github.io/bootstrap-select",
+        "keywords": [
+            "bootstrap",
+            "form",
+            "replacement",
+            "select"
+        ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v4.0.0",
+        "version_normalized": "4.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "8a628b943cf31ca0a002c08af661a95772480225"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/8a628b943cf31ca0a002c08af661a95772480225",
+            "reference": "8a628b943cf31ca0a002c08af661a95772480225",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2018-01-18T18:29:48+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ]
+    }
+]

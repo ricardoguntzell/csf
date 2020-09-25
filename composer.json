@@ -1,0 +1,19 @@
+{
+    "name": "guntzell/csf",
+    "description": "Projeto Heroku",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Guntzell",
+            "email": "rricardoguntzell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "4.0.0",
+        "components/jquery": "^3.5.1",
+        "snapappointments/bootstrap-select": "dev-master",
+        "datatables.net/datatables.net-responsive": "dev-master"
+    }
+}
