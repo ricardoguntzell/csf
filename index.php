@@ -1,3 +1,6 @@
+<?php
+require_once 'config.inc.php';
+?>
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -6,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= HOME ?>vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="vendor/snapappointments/bootstrap-select/dist/css/bootstrap-select.min.css">
     <!-- DataTables CSS -->
-    <link rel="stylesheet" type="text/css" href="_components/datatables/datatables.min.css"/>
+    <!--    <link rel="stylesheet" type="text/css" href="vendor/datatables.net/datatables.net-responsive/"/>-->
     <title>Guntzell</title>
 
     <style>
@@ -68,11 +71,15 @@
         <div class="jumbotron mt-3">
             <h1>GT-CRM</h1>
             <p class="lead">Relatórios personalizados...</p>
-            <a class="btn btn-lg btn-primary" href="" role="button">Parcele Cobrança</a>
+            <a class="btn btn-lg btn-primary" href="_app/view/parcele/index.php" role="button">Parcele Cobrança</a>
         </div>
     </div>
 
+    <?php
+    echo HOME . "<br>";
+    echo BASE . "<br>";
 
+    ?>
 
 
 </div>
