@@ -1,5 +1,12 @@
 <?php
 require_once 'config.inc.php';
+require_once '_app/model/Historico.php';
+
+$Historico = new Historico;
+var_dump($Historico->getHistoricos());
+var_dump(parse_url(getenv('DATABASE_URL')));
+
+die();
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -79,6 +86,10 @@ require_once 'config.inc.php';
     echo HOME . "<br>";
     echo BASE . "<br>";
     echo $_SERVER['SERVER_NAME'] . "<br>";
+
+    echo "<br><br><br>";
+
+    var_dump();
 
     ?>
 
