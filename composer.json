@@ -16,6 +16,7 @@
     "components/jquery": "^3.5.1",
     "snapappointments/bootstrap-select": "dev-master",
     "datatables.net/datatables.net-responsive": "dev-master",
-    "csanquer/pdo-service-provider": "~1.1dev"
+    "csanquer/pdo-service-provider": "~1.1dev",
+    "symfony/dotenv": "^5.2@dev"
   }
 }

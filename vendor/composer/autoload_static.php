@@ -55,6 +55,7 @@ class ComposerStaticInitc19736a1228ae17df2312f5c3ebb4dc5
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\ErrorHandler\\' => 31,
+            'Symfony\\Component\\Dotenv\\' => 25,
             'Symfony\\Component\\Debug\\' => 24,
             'Silex\\' => 6,
         ),
@@ -171,6 +172,10 @@ class ComposerStaticInitc19736a1228ae17df2312f5c3ebb4dc5
         'Symfony\\Component\\ErrorHandler\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/error-handler',
+        ),
+        'Symfony\\Component\\Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dotenv',
         ),
         'Symfony\\Component\\Debug\\' => 
         array (
