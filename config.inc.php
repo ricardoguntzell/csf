@@ -29,8 +29,8 @@ if ($_SERVER['SERVER_NAME'] == "localhost") {
     define('SITEDESC', '');
 
 // DEFINE A BASE DO SITE ####################
-    define('BASE', 'https://localhost/heroku/csf/');
-    define('HOME', 'https://localhost/heroku/csf/');
+    define('BASE', 'https://gtcrm.herokuapp.com/');
+    define('HOME', 'https://gtcrm.herokuapp.com/');
 }
 
 var_dump("Ricardo Guntzell");

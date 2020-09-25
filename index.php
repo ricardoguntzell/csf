@@ -78,6 +78,7 @@ require_once 'config.inc.php';
     <?php
     echo HOME . "<br>";
     echo BASE . "<br>";
+    echo $_SERVER['SERVER_NAME'] . "<br>";
 
     ?>
 
