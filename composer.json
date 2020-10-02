@@ -11,6 +11,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "php": "7.3.3",
     "twbs/bootstrap": "4.0.0",
     "components/jquery": "^3.5.1",
     "snapappointments/bootstrap-select": "dev-master",
