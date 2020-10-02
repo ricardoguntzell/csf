@@ -2,9 +2,12 @@
 require_once 'config.inc.php';
 require_once '_app/model/Historico.php';
 
+var_dump(parse_url(getenv('DATABASE_URL')));
+var_dump(HOST, USER, PASS, DBSA, PORT);
+
 $Historico = new Historico;
 var_dump($Historico->getHistoricos());
-var_dump(parse_url(getenv('DATABASE_URL')));
+
 
 die();
 ?>
